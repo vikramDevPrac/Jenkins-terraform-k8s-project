@@ -4,7 +4,7 @@ EKS-Terraform-Jenkins
 aws eks update-kubeconfig --region us-east-1 --name amonkincloud-cluster
 
 
-#How to configure git on local machine (used gitbash for it)
+# How to configure git on local machine (used gitbash for it)
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 eval "$(ssh-agent -s)"
